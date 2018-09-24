@@ -28,7 +28,9 @@ if ($_POST['submit']) {
 		Message: ".$_POST['message']);
 		
 		{
-			// KLASA ALERT Z BOOTSTRAP 4
+			// RESET FORMULARZA
+			$_POST = array();
+			// KLASA ALERT Z BOOTSTRAP 4 i WIADOMOSC KONCOWA
 		$result='<div class="alert alert-success" role="alert">Dziękuję w krótce się odezwiemy</div>';
 		}
 	}
